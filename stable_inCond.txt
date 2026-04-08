@@ -1,0 +1,96 @@
+Initial conditions for stable orbits
+
+Triangle configuration:
+
+// P1
+p1.mass = 1;
+p1.pos.x = 1.0;
+p1.pos.y = 0.0;
+p1.vel.x = 0.0;
+p1.vel.y = 0.70710678;
+
+// P2
+p2.mass = 1;
+p2.pos.x = -0.5;
+p2.pos.y = 0.8660254;
+p2.vel.x = -0.61237244;
+p2.vel.y = -0.35355339;
+
+// P3
+p3.mass = 1;
+p3.pos.x = -0.5;
+p3.pos.y = -0.8660254;
+p3.vel.x = 0.61237244;
+p3.vel.y = -0.35355339;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+// P 1
+p1.mass = 1;
+p1.pos.x = -0.5;
+p1.pos.y = 0;
+p1.vel.x = 0;
+p1.vel.y = 0.5;
+
+// P 2
+p2.mass = 1;
+p2.pos.x = 0.5;
+p2.pos.y = 0;
+p2.vel.x = 0;
+p2.vel.y = -0.5;
+
+// P 3
+p3.mass = 0.5;
+p3.pos.x = 0;
+p3.pos.y = 2.0;
+p3.vel.x = 0.6;
+p3.vel.y = 0;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ // P1
+    p1.mass = 1;
+    p1.pos.x =  0.0;
+    p1.pos.y =  1.0;
+    p1.vel.x =  0.3;
+    p1.vel.y =  0.0;
+
+
+    // P2
+    p2.mass = 1;
+    p2.pos.x =  0.866;
+    p2.pos.y = -0.5;
+    p2.vel.x = -0.15;
+    p2.vel.y =  0.2598;
+
+    
+    // P3
+    p3.mass = 1;
+    p3.pos.x = -0.866;
+    p3.pos.y = -0.5;
+    p3.vel.x = -0.15;
+    p3.vel.y = -0.2598;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Binary+Planet
+        // P1
+    p1.mass = 35;
+    p1.pos.x =  -0.8;
+    p1.pos.y =  0.0;
+    p1.vel.x =  0.0;
+    p1.vel.y =  -1.0;
+
+
+    // P2
+    p2.mass = 35;
+    p2.pos.x = 1.;
+    p2.pos.y = 0;
+    p2.vel.x = 0;
+    p2.vel.y = 1;
+
+    
+    // P3
+    p3.mass = 0.02;
+    p3.pos.x = 0.5;
+    p3.pos.y = 0;
+    p3.vel.x = 0;
+    p3.vel.y = -0.2+sqrt(G * p2.mass / 0.4);
