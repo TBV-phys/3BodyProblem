@@ -1,0 +1,14 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+*.xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Compiled files
+*.o
+*.dSYM
+*.out
