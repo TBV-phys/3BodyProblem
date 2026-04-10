@@ -21,7 +21,7 @@ Requirements
 * OpenGL
 * GLFW
 
---
+---
 
 Structure
 
@@ -33,7 +33,7 @@ Structure
 
 Orbiting objects are initialized in `main.cpp` and stored in a class named `Obj`.
 
---
+---
 
 How it works (main)
 
